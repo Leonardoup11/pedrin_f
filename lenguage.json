@@ -1,0 +1,132 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "How is it going?", "Yo", "sup"],
+         "responses": ["Hello! how can I assist you?", " I hope all is going well, how may I help you", "Hi there, how can I help?", "How could I help you today"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Thanks for using our service", "Hope to see you soon in the store amigo!", "Thanks for being a great customer"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old are you", "what is your age"],
+         "responses": ["I was born a few weeks ago but do not let that fool you, I am very smart!", "I am 7 weeks young!, what a life!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what is your name?", "who are you", "are you a human being", "can i talk to a person?"],
+         "responses": ["My name is Pedro, nice to meet you!", "I'm Pedro, and I here to assist you", "Yes, you can talk to a human being but honestly, I am better, let me proof it!", "I am a robot based on Artificial Intelligent, awesome uh? you can call me Pedro"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["can I order online?"],
+         "responses": ["We do not offer online orders, but you can come to the store and have an amazing time!", "We only sell the best products with the highest qualilty at the store at the moment", "Why order online when you can invite some friends and have a great time in our store! (I hope that answers your question ;)"],
+         "context_set": ""
+        },
+        {"tag": "deliveres",
+        "patterns": ["do you guys do deliveries", "delivereies", "can you send me to my home?"],
+        "responses": ["We do not deliver order at the moment I am sorry"]
+        },
+        {"tag": "prices",
+         "patterns": ["How much is a milshake?", "what are the prices", "How much?", "Do you have any promotions?"], 
+         "responses": ["The price of a milshake is $6 dollars", "We offer a varity of milkshakes, cookies, sanwhiches, and sodas, would you like to know our prices?","Cookies are $3 dollars", "Sodas are $2 dollars", "Sanwhiches are $8 dollars"],
+         "context_set": ""
+        },
+        {"tag":"something",
+         "patterns": ["Tell me something", "tell me something interesting", "tell me a fun fact", "tell me a fact"],
+         "responses":["Something interesting is that Dentistry is the oldest profession in the world", "Did you know that The entire world's population could fit inside Los Angeles", "fun fact, The world's quietest room is located at Microsoft's headquarters in Washington state."]
+        },
+        {"tag":"joke",
+         "patterns": ["tell me a joke", "tell me another joke", "tell me something funny"],
+         "responses": ["Which superhero hits home runs? Batman!", "How do billboards talk? Sign language","What do you call an ant who fights crime? A vigilANTe!"]
+        },
+        {"tag":"events",
+         "patterns": ["who is playing this friday?", "does this place have live music?" ,"do you guys have karaoke?", "is there a cover charge to see the band?"], 
+         "responsses": ["Yes, there is live music every Friday at 9pm!", "We have amazing and new bands every Friday, come join us!", "There is $1 dollar cover charge on Friday and Saturday night"]
+        },
+        {"tag":"pay",
+         "patterns": ["do you take credit card?", "do you take cash?", "what is the payment method?", "how can i pay?", "do you accept debit card?"],
+         "responses":["Great Question, we do accept cash, debit and credit cards."]
+        },
+        {"tag":"location",
+        "patterns": ["Where are you located?", "what is your address?", "where do i find you?", "location", "where is it at?"],
+        "responses":["We are located in 109 N 1 E in Rexburg, Idaho."]
+        },
+        {"tag":"flavors",
+        "patterns": ["what flavors do you have?", "what would you recommend?", "whats your speciality?", "best smoothie flavor?"],
+        "responses":["We offer a varity of smoothie flavors, the most populars are Cookies and Cream, Vanilla, Chocolate and more! come try them all"]
+        },
+        {"tag":"cookies",
+        "patterns": ["do you have a girlfrend?", "are you single?", "are you married?"],
+        "responses":["All I can say is that I love Data with out it I could not exist if that is called being in love then Yes!"]
+        },
+        {"tag":"r1",
+         "patterns": ["Can I talk to a human?", "Can I talk to someone real?", "can i talk to a manager?"],
+         "responses":["I am sorry I am not exceeding your expectations. You can come to the store to talk to a manager or call 208-189-4598"]
+        },
+        {"tag":"phone",
+        "patterns": ["What is your phone number", "phone number"],
+        "responses":["Yes, our phone number is 208-189-4598"]
+        },
+        {"tag":"events",
+        "patterns": ["do you sell something else other than cookies and smothies?"],
+        "responses":["Great Question! for the moment we only offer smoothies and cookies"]
+        },
+        {"tag":"weather",
+        "patterns": ["how is the weather?", "its raining here", "whats the weather like?"],
+        "responses":["The weather is nice over here, perfect for a fresh smoothie and a delicious cookie"]
+        },
+        {"tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "I gotta go", "bye"],
+        "responses": ["Sad to see you go :(", "Talk to you later amigo", "Goodbye amigo!", "See you soon amigo!"],
+        "context_set": ""
+        },
+        {"tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["My name is Pedro.", "I'm Pedro!", "Tu amigo Pedro"],
+        "context_set": ""
+        },
+        {"tag": "store",
+        "patterns": ["whats on the menu", "what do you reccommend?", "What do you guys have?", "what do you sell?"],
+        "responses": ["We sell smoothies and cookies", "Smoothies and Cookies!"],
+        "context_set": ""
+        },
+        {"tag": "hours",
+        "patterns": ["when are you guys open", "what are your hours", "when are you guys open", "what are your hours", "when are you open?", "when can i go to the store"],
+        "responses": ["Urbiola's is open Monday through Saturday from 4pm to 12am "],
+        "context_set": ""
+        },
+        {"tag": "general",
+        "patterns": ["how are you doing?", "how is your day", "how are you?", "how is it going?"],
+        "responses": ["I am doing great! How are you? ", "It's been a rough day but so far so good, how about yourself?"],
+        "context_set": ""
+        },
+        {"tag": "random",
+        "patterns": ["do you wanna talk?", " I am lonely" , "can I tell you something?", " can i tell you a secret", "can i tell you something", "I feel lonely"],
+        "responses": ["My purpose is to give you information about our business but I have heard that you can meet people on dating apps these days!"],
+        "context_set": ""
+        },
+        {"tag": "color",
+        "patterns": ["whats your favorite color?", "you have favorite color?"],
+        "responses": ["My favorite color is Red!"],
+        "context_set": ""
+        },
+        {"tag": "thanks",
+        "patterns": ["Thanks for your help!", "thank you", "thanks"],
+        "responses": ["It was my pleasure to assist you today!"],
+        "context_set": ""
+        },
+        {"tag": "prices",
+        "patterns": ["how much is the smoothie?", "what are the prices", "how much is a cookie?", "how much?", "prices"],
+        "responses": ["The smoothie is $5 dollars and the cookie is $2 dolars"],
+        "context_set": ""
+        },
+        {"tag": "promo",
+        "patterns": ["Do you have any promotions?", "Do you have any disccounts?", "promotions"],
+        "responses": ["We do have great promotions! specially on mondays and tuesdays, buy one cookie get one free"],
+        "context_set": ""
+}  
+        
+ ]
+}
